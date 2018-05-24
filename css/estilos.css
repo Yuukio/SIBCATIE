@@ -1,0 +1,44 @@
+body {
+    background-image: url('../img/light-grey-terrazzo.png'); 
+}
+
+.jumbotron{
+    background-color: #2e4b8c;
+    color: white;
+}
+
+.panel-heading{
+    background-color: #2e4b8c !important;
+    color: white !important;
+}
+
+.panel-body{
+    color: #3D3D3D !important;
+}
+
+.navbar{
+    background-color: #2b2b2b !important; 
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+    color: #829AD1 !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+    color: white !important;
+}
+
+#navbar li a:link, #navbar li a:visited{
+    color: white !important;
+}
+
+#navbar li a:hover, #navbar li a:active{
+    color: #829AD1 !important;
+}
+
+/*
+:link - aspecto de enlace sin pasar el raton por encima ni nada
+:visited - cuando no pasa nada pero ya hemos visitado
+:hover - cuando el puntero pasa por encima del enlace
+:active - aspecto que tendra durante la carga
+*/
